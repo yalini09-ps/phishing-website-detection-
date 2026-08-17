@@ -1,0 +1,7 @@
+url,length,https,has_at,has_dash,label
+https://google.com,17,1,0,0,legitimate
+https://github.com,19,1,0,0,legitimate
+https://www.microsoft.com,23,1,0,0,legitimate
+http://secure-login-example.com,28,0,0,1,phishing
+http://account-verify-example.com,31,0,0,1,phishing
+http://paypal-login-example.com,30,0,0,1,phishing
