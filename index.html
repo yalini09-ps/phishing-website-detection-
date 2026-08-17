@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Phishing Website Detection</title>
+</head>
+
+<body>
+
+    <h1>🔐 Phishing Website Detection</h1>
+
+    <p>Enter a website URL to check its basic risk classification.</p>
+
+    <form action="/predict" method="POST">
+
+        <input
+            type="text"
+            name="url"
+            placeholder="https://example.com"
+            required
+        >
+
+        <button type="submit">
+            Check Website
+        </button>
+
+    </form>
+
+    <br>
+
+    <p>
+        ⚠️ This is an educational machine-learning project.
+        It cannot guarantee that a website is safe.
+    </p>
+
+</body>
+
+</html>
